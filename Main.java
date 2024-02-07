@@ -1,4 +1,5 @@
 public class Main {
+<<<<<<< HEAD
     public static void main(String[] args){
         public static void insertionSort(int array[]) {
             int n = array.length;
@@ -30,3 +31,20 @@ public class Main {
         }
     }
 }
+
+
+    public static void selectionSort(int[] arr) {
+        for (int i = 0; i < arr.length - 1; i++) {
+            int index = i;
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[j] < arr[index]) {
+                    index = j;//searching for lowest index
+                }
+            }
+            int smallerNumber = arr[index];
+            arr[index] = arr[i];
+            arr[i] = smallerNumber;
+        }
+    }
+}
+>>>>>>> 4d106747712a4cf6e9ccebbaf44a4a3460d09eda
