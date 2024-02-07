@@ -15,9 +15,9 @@ public class Main {
         int[] arr1 = {9,14,3,2,43,11,58,22};
     }
     public static void sort(int[] array){
-        insertionSort(array);
+        selectionSort(array);
     }
-    
+
     public static void selectionSort(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {
             int index = i;
